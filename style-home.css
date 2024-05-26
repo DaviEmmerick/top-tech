@@ -254,6 +254,27 @@ img {
     left: 0; 
   }
 }
+@media(min-width: 414px) and (max-width: 896px){
+  .Titulo-Home{
+    margin-left: 1.7rem;
+  }
+}
+@media(min-width: 390px) and (max-width: 844px){
+  .Titulo-Home{
+    margin-left: 1.3rem;
+  }
+}
+@media(min-width: 428px) and (max-width: 926px){
+  .Titulo-Home{
+    margin-left: 1.3rem;
+  }
+  .carrossel{
+    margin-left: 3.6rem;
+  }
+  .Main > .Sub{
+    margin-left: 5rem;
+  }
+}
 @media (min-width: 800px) and (max-width: 1280px) {
   .nav-item {
       display: none;

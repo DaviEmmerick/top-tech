@@ -122,6 +122,7 @@ img {
 
 .Footer {
   gap: 3rem;
+  margin-left: 2.5rem;
 }
 
 .Icon-1 {
@@ -215,11 +216,6 @@ img {
 
   .carrossel {
       margin-left: 2rem;
-  }
-
-  .Footer {
-      display: flex;
-      gap: 0.5rem;
   }
 
   .open {

@@ -245,6 +245,10 @@ img {
   .open {
     display: block;
   }
+  .Resumo > .Sub {
+    position: relative;
+    left: 1rem; 
+  }
   .carrossel {
     margin-left: 3rem;
   }

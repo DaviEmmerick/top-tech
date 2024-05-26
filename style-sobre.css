@@ -1,0 +1,241 @@
+@import "https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap";
+
+* {
+    font-family: 'Nunito sans', Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    list-style: none;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #e3f8f3;
+}
+.nav-list {
+    display: flex;
+    justify-content: end;
+    padding-right: 3rem;
+    margin-top: -2rem;
+    height: 46rem;
+    width: 70%;
+    float: right;
+}
+
+.nav-list a {
+    display: flex;
+    color: #000;
+    padding: 2rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.nav-list {
+    position: relative;
+    padding-top: 3rem;
+}
+
+#text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 48px;
+    color: #000;
+    z-index: 1;
+}
+
+.SobreTech {
+    font-family: 'Nunito sans', Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+}
+
+.backStyle {
+    background-color: red;
+    color: #fff;
+}
+
+.mobile-menu-icon {
+    display: none;
+}
+
+.mobile {
+    display: none;
+}
+
+@media (max-width: 568px) {
+    .nav-item {
+        display: none;
+    }
+
+    .mobile {
+        height: 19.5rem;
+        width: 10rem;
+        margin-left: 1rem;
+        background-color: #000;
+    }
+    .nav-item2{
+        z-index: 9999;
+        margin-top: -2.3rem;
+        margin-left: -2.5rem;
+        width: 5rem;
+        background-color: #000;
+
+    }
+
+    .mobile-menu-icon {
+        display: block;
+        color: #000;
+        padding-left: 1rem;
+      
+        border: none;
+        cursor: pointer;
+    }
+
+    .backStyle {
+        color: #000;
+        background-color: transparent;
+    }
+
+    .mobile ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 5rem;
+        padding-top: 1rem;
+        z-index: 0;
+    }
+
+    .mobile a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .mobile {
+        padding: 5rem;
+        padding-top: 4rem;
+    }
+
+    .SobreTech {
+        font-size: 1rem;
+        margin-top: 9rem;
+        line-height: 1.3rem;
+        z-index: 0;
+    }
+
+    .open {
+        display: block;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 812px) {
+    .mobile {
+        height: 45rem;
+    }
+}
+
+@media (min-width: 360px) and (max-width: 800px) {
+    .mobile {
+        height: 19.5rem;
+        width: 10rem;
+        margin-left: 1rem;
+    }
+    .nav-item2{
+        z-index: 9999;
+        margin-top: -2.3rem;
+        margin-left: -2.5rem;
+        width: 5rem;
+
+    }
+}
+
+@media (min-width: 569px) and (max-width: 800px) {
+    .nav-item {
+        display: none;
+    }
+
+    .mobile {
+        background-color: #000;
+        height: 60rem;
+    }
+
+    .mobile-menu-icon {
+        display: block;
+        color: #fff;
+        padding-left: 1rem;
+    }
+
+    .mobile ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: 1.7rem;
+        gap: 5rem;
+        padding-top: 1rem;
+        z-index: 0;
+    }
+
+    .mobile a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .backStyle {
+        color: #000;
+        background-color: transparent;
+    }
+
+    .open {
+        display: block;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 1280px) {
+    .nav-item {
+        display: none;
+    }
+
+    .mobile {
+        background-color: #000;
+        height: 30rem;
+        width: 15rem;
+    }
+    .nav-item2{
+        z-index: 9999;
+        margin-top: .6rem;
+        margin-left: 2.2rem;
+        width: 9rem;
+        font-size: 1.7rem;
+    }
+
+    .mobile-menu-icon {
+        display: block;
+        color: #fff;
+        padding-left: 1rem;
+    }
+
+    .mobile ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 5rem;
+        padding-top: 1rem;
+        z-index: 0;
+    }
+
+    .mobile a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .backStyle {
+        color: #000;
+        background-color: transparent;
+    }
+
+    .open {
+        display: block;
+    }
+}

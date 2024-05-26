@@ -1,0 +1,1 @@
+const imgs=document.getElementById("img"),img=document.querySelectorAll("#img img");let idx=0;setInterval(()=>{imgs.style.transform=`translateX(${-idx++*(100/img.length)}%)`;idx%=img.length},3e3),imgs.style.width=`${img.length*100}%`,img.forEach(image=>{image.style.width=`${100/img.length}%`});

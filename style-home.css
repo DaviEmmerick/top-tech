@@ -266,14 +266,22 @@ img {
 }
 @media(min-width: 428px) and (max-width: 926px){
   .Titulo-Home{
-    margin-left: 1.3rem;
+    margin-left: 1.4rem;
   }
   .carrossel{
     margin-left: 3.6rem;
   }
-  .Main > .Sub{
-    margin-left: 5rem;
-  }
+  .Resumo > .Sub {
+    position: relative;
+    left: 2rem; 
+}
+.Resumo > .Trabalhos{
+  position: relative;
+    left: 1.5rem; 
+}
+
+
+
 }
 @media (min-width: 800px) and (max-width: 1280px) {
   .nav-item {

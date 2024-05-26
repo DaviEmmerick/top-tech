@@ -262,6 +262,10 @@ img {
   .Titulo-Home{
     margin-left: 1.7rem;
   }
+  .Resumo > .Sub {
+    position: relative;
+    left: 2rem; 
+}
 }
 @media(min-width: 390px) and (max-width: 844px){
   .Titulo-Home{
